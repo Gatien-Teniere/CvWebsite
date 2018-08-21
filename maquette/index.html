@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8" />
+		<meta name="description" content="This website provide information about Gatien Teniere as a Web Engineer. His skills and professional experiences." />
+		<meta name="viewport" content="width=device-width">
+	    <title>Gatien Teniere - Web Engineer CV</title>
+
+	    <link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body >
+		<button id="md" class="sr-only mode-daltonien" onclick="
+			document.getElementById('md').classList.add('mode-daltonien-active');
+			document.getElementsByTagName('body')[0].classList.contains('accessible') ?
+			document.getElementsByTagName('body')[0].classList.remove('accessible'):
+			document.getElementsByTagName('body')[0].classList.add('accessible');
+			">Mode Daltonien</button>
+		<header>
+			<div class="header-left">
+				<h1>
+					<span class="identite">Gatien Tenière</span>
+					<span class="metier">Web Engineer CV</span>
+				</h1>
+			</div>
+			<div class="header-center">
+				<img class="photo-profil" alt="Photo de Gatien Tenière" src="img/moi.png"></img>
+			</div>
+			<div class="header-right">
+				<span class="metier">Web Engineer CV</span>
+				<address>Contact me <a href="mailto:g.teniere@gmail.com">g.teniere@gmail.com</a></address>
+				<!-- <span class="permis">Driver licence owned </span>
+				<img class="permis__image" alt="Image de permis de conduire" src="img/permis.jpg"></img> -->
+			</div>
+		</header>
+		<nav>
+			<ul class="menu">
+				<li class="menu__active" aria-label="Active menu">
+					<h2><a role="button" aria-label="Skills">Skills</a></h2>
+				</li>
+				<li class="menu__inactive" aria-label="Inactive menu">
+					<h2><a role="button" aria-label="Professionnal Experiences" aria-disabled="true"><span class="large_screen" aria-hidden="true">Professionnal</span><span aria-hidden="true"> Experiences</span></a></h2>
+				</li>
+			</ul>
+		</nav>
+		<main>
+			<img class="icon-section" src="img/icons8-maintenance-80.png" aria-hidden="true"><h3>Computer Skills</h3>
+			<section>
+				<div class="skill-group-name">
+					Front End
+				</div>
+				<div class="skill-group">
+					<div class="skill">
+						<span class="skillName">Html 5</span>
+						<span class="rating">
+							<span class="sr-only">5 étoiles sur 5</span>
+							<span class="fillStar" aria-hidden="true">★★★★★</span>
+						</span>
+					</div>
+					<div class="skill">
+						<span class="skillName">Css 3</span>
+						<span class="rating">
+							<span class="sr-only">4 étoiles sur 5</span>
+							<span class="fillStar" aria-hidden="true">★★★★</span><span aria-hidden="true">☆</span>
+						</span>
+					</div>
+					<div class="skill">
+						<span class="skillName">Javascript</span>
+						<span class="rating">
+							<span class="sr-only">5 étoiles sur 5</span>
+							<span class="fillStar" aria-hidden="true">★★★★★</span>
+						</span>
+					</div>
+					<div class="skill">
+						<span class="skillName">Angular 6</span>
+						<span class="rating">
+							<span class="sr-only">5 étoiles sur 5</span>
+							<span class="fillStar" aria-hidden="true">★★★★★</span>
+						</span>
+					</div>
+					<div class="skill">
+						<span class="skillName">React & Redux</span>
+						<span class="rating">
+							<span class="sr-only">3 étoiles sur 5</span>
+							<span class="fillStar" aria-hidden="true">★★★</span><span aria-hidden="true">☆☆</span>
+						</span>
+					</div>
+					<div class="skill">
+						<span class="skillName">Jest</span>
+						<span class="rating">
+							<span class="sr-only">4 étoiles sur 5</span>
+							<span class="fillStar" aria-hidden="true">★★★★</span><span aria-hidden="true">☆</span>
+						</span>
+					</div>
+				</div>
+				<div class="skill-group-name">
+					Back End
+				</div>
+				<div class="skill-group">
+					<div class="skill">
+						<span class="skillName">Java 7</span>
+						<span class="rating" aria-label="5 stars">
+							<span aria-hidden="true">
+								<span class="sr-only">5 étoiles sur 5</span>
+								<span class="fillStar" aria-hidden="true">★★★★★</span>
+							</span>
+						</span>
+					</div>
+					<div class="skill">
+						<span class="skillName">Maven</span>
+						<span class="rating">
+							<span class="sr-only">3 étoiles sur 5</span>
+							<span class="fillStar" aria-hidden="true">★★★</span><span aria-hidden="true">☆☆</span>
+						</span>
+					</div>
+					<div class="skill">
+						<span class="skillName">JUnit & Mockito</span>
+						<span class="rating">
+							<span class="sr-only">4 étoiles sur 5</span>
+							<span class="fillStar" aria-hidden="true">★★★★</span><span aria-hidden="true">☆</span>
+						</span>
+					</div>
+					<div class="skill">
+						<span class="skillName">Node JS</span>
+						<span class="rating">
+							<span class="sr-only">3 étoiles sur 5</span>
+							<span class="fillStar" aria-hidden="true">★★★</span><span aria-hidden="true">☆☆</span>
+						</span>
+					</div>
+				</div>
+				<!-- <div class="skill-group-name">
+						Versioning
+					</div>
+				<div class="skill-group">
+					<div class="skill">
+						<span class="skillName">Git</span>
+						<span class="rating">
+							<span class="fillStar">★★★★★</span>
+						</span>
+					</div>
+				</div>
+				<div class="skill-group-name">
+					Devops
+				</div>
+				<div class="skill-group">
+					<div class="skill">
+						<span class="skillName">Docker</span>
+						<span class="rating">
+							<span class="fillStar">★★★</span><span>☆☆</span>
+						</span>
+					</div>
+					<div class="skill">
+						<span class="skillName">Docker Swarm</span>
+						<span class="rating">
+							<span class="fillStar">★★★</span><span>☆☆</span>
+						</span>
+					</div>
+				</div> -->
+			</section>
+			<img class="icon-section" src="img/icons8-language-50.png" aria-hidden="true"> <h3>Language</h3>
+			<section>
+				<div class="skill-group-language">
+					<div class="skill">
+						<span class="skillName"><img class="flag-lang" src="img/icons8-france-48.png"> Français</span>
+						<span class="rating">
+							<span class="sr-only">5 étoiles sur 5</span>
+							<span class="fillStar" aria-hidden="true">★★★★★</span>
+						</span>
+						<span class="detail-lang">Le français est ma langue maternelle.</span>
+					</div>
+					<div class="skill">
+						<span class="skillName"><img class="flag-lang" src="img/icons8-great-britain-48.png"> Anglais</span>
+						<span class="rating">
+							<span class="sr-only">4 étoiles sur 5</span>
+							<span class="fillStar" aria-hidden="true">★★★★</span><span aria-hidden="true">☆</span>
+						</span>
+						<span class="detail-lang">Very good reading, good comprehenssion and pretty good oral expression.</span>
+					</div>
+					<div class="skill">
+						<span class="skillName"><img class="flag-lang" src="img/icons8-germany-48.png"> Allemand</span>
+						<span class="rating">
+							<span class="sr-only">1 étoiles sur 5</span>
+							<span class="fillStar" aria-hidden="true">★</span><span aria-hidden="true">☆☆☆☆</span>
+						</span>
+						<span class="detail-lang">Ich kenne ein paar Wörter und Grammatik, aber ich kann nicht Deutsch sprechen.</span>
+					</div>	
+				</div>
+			</section>
+			<img class="icon-section" src="img/icons8-mortier-50.png" aria-hidden="true"> <h3>Qualifications</h3>
+			<section>
+				<div class="diplome-list">
+					<div class="diplome">
+						<span class="annee-diplome">2017</span>
+						<span class="titre-diplome">Master Informatique</span>
+						<span class="lieu-diplome">Université Le Havre</span>
+					</div>
+					<div class="diplome">
+						<span class="annee-diplome">2015</span>
+						<span class="titre-diplome">Licence Informatique</span>
+						<span class="lieu-diplome">Université Le Havre</span>
+					</div>
+					<div class="diplome">
+						<span class="annee-diplome">2014</span>
+						<span class="titre-diplome">DUT Informatique</span>
+						<span class="lieu-diplome">DUT Caucriauville</span>
+					</div>
+				</div>
+			</section>
+			<!--
+			<h2>Professionnal experiences</h2>
+			<div class="experience">
+				<h3>Capgemini Pôle Emploi</h3>
+				<div class="role-experience"></div>
+				<div class="description-experience"></div>	Plier Déplier
+				<div class="competence-experience"></div>
+			</div>
+			<div class="experience">
+				<h3>Capgemini <span class="stage">Stage</span></h3>
+				<div class="role-experience"></div>
+				<div class="description-experience"></div>
+				<div class="competence-experience"></div>
+			</div>
+			<div class="experience">
+				<h3>Les Faiseurs Des Toiles <span class="stage">Stage</span></h3>
+				<div class="role-experience"></div>
+				<div class="description-experience"></div>
+				<div class="competence-experience"></div>
+			</div>
+			<div class="experience">
+				<h3>Grand port maritime du Havre <span class="stage">Stage</span></h3>
+				<div class="role-experience"></div>
+				<div class="description-experience"></div>
+				<div class="competence-experience"></div>
+			</div>
+			
+			<h2>About me</h2>
+			<h3>Description</h3>
+			<h3>Loisir</h3>
+			<div class="liste-loisir">
+				<span class="loisir">Sports loisir (badminton, futsall)</span>
+				<span class="loisir">Musique (piano, guitare, composition, concert)</span>
+			</div> -->
+		</main>
+		<footer>
+			<div class="header-right">
+				<address>Contact me <a href="mailto:g.teniere@gmail.com">g.teniere@gmail.com</a></address>
+			</div>
+			<div>Icons are provided by <a href="https://icons8.com/">icons8</a></div>
+		</footer>
+	</body>
+</html>
